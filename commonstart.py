@@ -1,10 +1,19 @@
-import bearoom
+import time, sys
 from bearoom import bear
 
-print("enter which room u want to go to: 1- bear room, 2 - monster room")
-a=int(input())
-obj = bear()
-def choice():
-    if a==1:
-        obj.prints()
-choice()
+def begin():
+    
+    starttext="""You find yourself stuck outside the real world.
+            You don't know if you're dreaming or if you're awake.
+        If you die, you may wake up from the nightmare of your own brain
+                                        OR
+                    You might never wake up ever again
+        """
+    
+    for char in starttext:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.005)
+        
+
+
