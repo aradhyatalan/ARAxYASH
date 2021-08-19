@@ -27,8 +27,8 @@ elif inp1=='2':
 
 
 if n <=3:
-    print("You have entered the BEAR room")
+    print("You have stumbled in the BEAR room")
 else:
-    print("You have entered the MONSTER room")  
+    print("You have awoken the MONSTER")  
 
  
