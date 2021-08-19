@@ -1,3 +1,3 @@
 class bear:
     def prints(self):
-        print("Yay! Yay! Bear Room!")
+        print("Yay! You have made it to the Bear Room!")
