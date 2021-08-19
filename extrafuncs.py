@@ -9,3 +9,6 @@ class difftimedelays:
         print(".")
         time.sleep(1) 
         print(".")
+
+    
+
