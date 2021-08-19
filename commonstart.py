@@ -12,7 +12,8 @@ def begin():
     
     for char in starttext:
         sys.stdout.write(char)
-        time.sleep(0.03)
+        sys.stdout.flush()
+        time.sleep(0.005)
         
 
 
