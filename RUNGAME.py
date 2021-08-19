@@ -1,10 +1,9 @@
 from commonstart import*
 from extrafuncs import difftimedelays
 import random
-#import time
 begin()
 
-time.sleep(1)
+extrafuncs.time.sleep(1)
 
     
 print("\nPick an option to decide your fate:")
