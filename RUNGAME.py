@@ -1,4 +1,4 @@
-from commonstart import*
+from commonstart import *
 from extrafuncs import *
 import random
 #import time
