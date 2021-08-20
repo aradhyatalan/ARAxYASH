@@ -1,5 +1,4 @@
 import time, sys
-from bearoom import bear
 
 def begin():
     

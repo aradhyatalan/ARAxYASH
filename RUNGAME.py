@@ -1,5 +1,5 @@
 from commonstart import*
-from extrafuncs import difftimedelays
+from extrafuncs import *
 import random
 #import time
 begin()
@@ -27,8 +27,12 @@ elif inp1=='2':
 
 
 if n <=3:
-    print("You have stumbled in the BEAR room")
+    print("Your fate has lead you to a fearsome battle with a Bear.\n")
+    obja.switching()
+    obja.clear()
 else:
-    print("You have awoken the MONSTER")  
+    print("You have awoken the MONSTER.\n")
+    obja.switching()
+    obja.clear()  
 
  
