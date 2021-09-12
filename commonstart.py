@@ -1,4 +1,4 @@
-import time, sys
+import extrafuncs, sys
 from bearoom import bear
 
 def begin():
@@ -13,7 +13,7 @@ def begin():
     for char in starttext:
         sys.stdout.write(char)
         sys.stdout.flush()
-        time.sleep(0.005)
+        extrafuncs.time.sleep(0.005)
         
 
 

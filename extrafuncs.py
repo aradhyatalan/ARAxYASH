@@ -1,6 +1,5 @@
 import time
 class difftimedelays:
-
     def dotdot(self):
         print(".")
         time.sleep(1) 
